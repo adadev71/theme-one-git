@@ -1,0 +1,1 @@
+/Users/macbookpro/Desktop/shopify/theme-one-gitt/theme-one/AGENTS.md
