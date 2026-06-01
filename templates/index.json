@@ -12,9 +12,18 @@
     "main": {
       "type": "hello-world",
       "settings": {}
+    },
+    "hero_PkG3qb": {
+      "type": "hero",
+      "name": "Default",
+      "settings": {
+        "heading": "helllo",
+        "image": "shopify://shop_images/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_PkG3qb"
   ]
 }
