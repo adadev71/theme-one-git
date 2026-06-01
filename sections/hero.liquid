@@ -1,9 +1,9 @@
 <div class="hero-banner">
-    {{ section.settings.image | image_url: 'master' | img_tag: section.settings.heading }}
-    <h1 class="hero-heading">{{ section.settings.heading }}</h1>
+  {{ section.settings.image | img_tag: section.settings.heading }}
+  <h1 class="hero-heading">{{ section.settings.heading }}</h1>
 </div>
 
-{% scheme %}
+{% schema %}
 {
     "name":"Hero",
     "tag":"section",
@@ -19,14 +19,12 @@
             "label":"Image"
         }
     ],
+  "presets": [
     {
-        "presets":[
-            {
-                "name":"Default",
-                "category":"Hero"
-            }
-        ]
+      "name": "Default",
+      "category": "Hero"
     }
+  ]
 }
 
-{% endscheme %}
+{% endschema %}
